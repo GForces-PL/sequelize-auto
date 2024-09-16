@@ -1,5 +1,9 @@
 # sequelize-auto change log
 
+## [0.8.8] - 2024-09-16
+
+* fix: TypeScript model generation - use declare on all class fields and methods
+
 ## [0.8.7] - 2021-12-08
 
 * Don't write field comments for mssql, because it throws error in sequelize.sync() (#567)
